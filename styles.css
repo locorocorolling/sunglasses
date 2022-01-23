@@ -16,8 +16,6 @@ main {
   max-height: 480px;
 
   display: flex;
-  color: #f3560d;
-  /* color: #b75254; */
   background-color: black;
   border-radius: 6px;
   padding: 16px;
@@ -44,14 +42,18 @@ p {
 }
 
 button {
-  display: flex;
-  justify-content: center;
   font-size: 28px;
   color: #fa6ead;
   background: none;
   border: none;
   padding: 0;
   cursor: pointer;
+}
+
+button > a {
+  display: flex;
+  color: inherit;
+  text-decoration: none;
 }
 
 .arrow {
